@@ -3,6 +3,7 @@ img{
     border-radius: 20px;
     width:20%;
     padding:1px;
+    text-align: center
 }
 
 h1{
@@ -11,16 +12,29 @@ h1{
     font-variant: small-caps;
     color: #a10e0e;
     text-align: center;
+    text-align: center
 }
 
 body{
     font-family: Georgia, Times, serif;
     background-color: #370c0c;
+    text-align: center
 }
 
 ul{
-    list-style-type: square;
-    margin-left: 10%;
-    border: 1pt dotted #000000;
+    list-style-type: symbols("#");
+    color: #c38b8b;
+    border: 1pt dotted #c38b8b;
     width: 20%;
+    text-align: center;
+
+
+}
+
+#issue1{
+    font-family: Georgia, Times, serif;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    color: #dbb636;
+    text-align: center;
 }
