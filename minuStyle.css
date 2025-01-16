@@ -10,11 +10,17 @@ h1{
     font-family: Georgia, Times, serif;
     letter-spacing: 2px;
     font-variant: small-caps;
-    color: #a10e0e;
+    color: #efbd17;
     text-align: center;
     text-align: center
 }
 
+h3{
+    color: #efbd17;
+}
+strong{
+    color: #efbd17;
+}
 body{
     font-family: Georgia, Times, serif;
     background-color: #370c0c;
@@ -23,8 +29,8 @@ body{
 
 ul{
     list-style-type: symbols("#");
-    color: #c38b8b;
-    border: 1pt dotted #c38b8b;
+    color: #dbb636;
+    border: 1pt dotted #dbb636;
     width: 20%;
     text-align: center;
 
@@ -37,4 +43,16 @@ ul{
     font-variant: small-caps;
     color: #dbb636;
     text-align: center;
+}
+#issue2{
+    font-family: Georgia, Times, serif;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    color: #dbb636;
+    text-align: center;
+    ul{
+        color: #dbb636;
+        text-align: center;
+        border: 1pt dotted #dbb636;
+    }
 }

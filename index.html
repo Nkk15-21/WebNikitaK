@@ -36,6 +36,56 @@
 
 </div>
 
+<div id="issue2">
+    <h3>1. Создание удалённого репозитория: </h3>
+        <ul>
+        <li>1. Заходим на GitHub</li>
+        <li>2. Нажмите на кнопку New Repository.</li>
+        <li>3. кажите имя репозитория и сделайте его публичным</li>
+        <li>4. Скопируйте ссылку на репозиторий</li>
+    </ul>
+
+    <h3>2. Настройка локального репозитория: </h3>
+        <ul>
+            <li>Инициализация репозитория:
+                <strong> git init </strong>
+            </li>
+            <li>Коммитим:
+                <strong>git add .</strong>
+                <strong>git commit -a -m "Comment"</strong>
+            </li>
+            <li>Связывание с удалённым репозиторием:
+                <strong> git remote add origin "Ссылка на GitHub Repo"</strong>
+            </li>
+            <li>Коммитим:
+                <strong>git commit -m "Comment"</strong>
+            </li>
+            <li>Отправка изменений:
+                <strong>git branch -M main</strong>
+                <strong>git push -u origin main</strong>
+            </li>
+            <li>Коммитим:
+                <strong>git commit -m "Comment"</strong>
+            </li>
+        </ul>
+
+    <h3>3. Публикация через GitHub Pages: </h3>
+        <ul>
+            <li>Создайте новую ветку для GitHub Pages:
+                <strong>git checkout -b gh-pages</strong>
+            </li>
+            <li>Коммитим:
+                <strong>git commit -m "Comment"</strong>
+            </li>
+            <li>Отправьте ветку в удалённый репозиторий:
+                <strong>git push -u origin gh-pages</strong>
+            </li>
+            <li>Зайти в настройки репозитория (Settings) → Pages → выбрать ветку gh-pages в качестве источника для Pages и сохранить.
+            </li>
+
+        </ul>
+
+</div>
 
 </body>
 </html>
