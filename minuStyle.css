@@ -4,3 +4,23 @@ img{
     width:20%;
     padding:1px;
 }
+
+h1{
+    font-family: Georgia, Times, serif;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    color: #a10e0e;
+    text-align: center;
+}
+
+body{
+    font-family: Georgia, Times, serif;
+    background-color: #370c0c;
+}
+
+ul{
+    list-style-type: square;
+    margin-left: 10%;
+    border: 1pt dotted #000000;
+    width: 20%;
+}
