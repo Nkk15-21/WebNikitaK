@@ -3,24 +3,56 @@ img{
     border-radius: 20px;
     width:20%;
     padding:1px;
+    text-align: center
 }
 
 h1{
     font-family: Georgia, Times, serif;
     letter-spacing: 2px;
     font-variant: small-caps;
-    color: #a10e0e;
+    color: #efbd17;
     text-align: center;
+    text-align: center
 }
 
+h3{
+    color: #efbd17;
+}
+strong{
+    color: #efbd17;
+}
 body{
     font-family: Georgia, Times, serif;
     background-color: #370c0c;
+    text-align: center
 }
 
 ul{
-    list-style-type: square;
-    margin-left: 10%;
-    border: 1pt dotted #000000;
+    list-style-type: symbols("#");
+    color: #dbb636;
+    border: 1pt dotted #dbb636;
     width: 20%;
+    text-align: center;
+
+
+}
+
+#issue1{
+    font-family: Georgia, Times, serif;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    color: #dbb636;
+    text-align: center;
+}
+#issue2{
+    font-family: Georgia, Times, serif;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    color: #dbb636;
+    text-align: center;
+    ul{
+        color: #dbb636;
+        text-align: center;
+        border: 1pt dotted #dbb636;
+    }
 }
